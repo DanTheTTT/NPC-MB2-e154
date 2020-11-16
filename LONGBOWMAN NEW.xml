@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+   <!------USE THIS PART ONLY------->
+
+  <NPCCharacter id="vlandian_longbowman"
+                default_group="Ranged"
+                level="16"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t2"
+                name="{=GUQ3zfg2}Vlandian Longbowman"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="90" />
+      <skill id="Riding"
+             value="40" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="30" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="100" />
+      <skill id="Crossbow"
+             value="30" />
+      <skill id="Throwing"
+             value="30" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.lowland_longbow" />
+      <equipment slot="Item1"
+                 id="Item.bolt_a" />
+      <equipment slot="Item2"
+                 id="Item.bodkin_arrows_b" />
+      <equipment slot="Item3"
+                 id="Item.bodkin_arrows_b" />
+      <equipment slot="Body"
+                 id="Item.padded_leather_shirt" />
+      <equipment slot="Leg"
+                 id="Item.highland_boots" />
+      <equipment slot="Head"
+                 id="Item.pilgrim_hood" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.lowland_longbow" />
+      <equipment slot="Item1"
+                 id="Item.bodkin_arrows_b" />
+      <equipment slot="Item2"
+                 id="Item.bodkin_arrows_b" />
+      <equipment slot="Item3"
+                 id="Item.vlandia_sword_1_t2" />
+      <equipment slot="Body"
+                 id="Item.padded_leather_shirt" />
+      <equipment slot="Leg"
+                 id="Item.highland_boots" />
+      <equipment slot="Head"
+                 id="Item.pilgrim_hood" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.lowland_longbow" />
+      <equipment slot="Item1"
+                 id="Item.bodkin_arrows_b" />
+      <equipment slot="Item2"
+                 id="Item.bodkin_arrows_b" />
+      <equipment slot="Item3"
+                 id="Item.vlandia_sword_1_t2" />
+      <equipment slot="Body"
+                 id="Item.padded_leather_shirt" />
+      <equipment slot="Leg"
+                 id="Item.highland_boots" />
+      <equipment slot="Head"
+                 id="Item.pilgrim_hood" />
+      <equipment slot="Cape"
+                 id="Item.scarf" />
+      <equipment slot="Gloves"
+                 id="Item.highland_gloves" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_veteran_longbowman" />
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_veteran_longbowman"
+                default_group="Ranged"
+                level="21"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t2"
+                name="Vlandian Veteran Longbowman"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="120" />
+      <skill id="Riding"
+             value="60" />
+      <skill id="OneHanded"
+             value="120" />
+      <skill id="TwoHanded"
+             value="75" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="150" />
+      <skill id="Crossbow"
+             value="50" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <equipmentSet>      
+      <equipment slot="Item0"
+                 id="Item.woodland_longbow" />
+      <equipment slot="Item1"
+                 id="Item.bodkin_arrows_a" />
+      <equipment slot="Item2"
+                 id="Item.bodkin_arrows_a" />
+      <equipment slot="Item3"
+                 id="Item.vlandia_sword_2_t3" />
+      <equipment slot="Body"
+                 id="Item.mail_shirt" />
+      <equipment slot="Leg"
+                 id="Item.leather_cavalier_boots" />
+      <equipment slot="Head"
+                 id="Item.guards_kettle_over_laced_coif" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_padded_vambrace" />
+      <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.woodland_longbow" />
+      <equipment slot="Item1"
+                 id="Item.bodkin_arrows_a" />
+      <equipment slot="Item2"
+                 id="Item.bodkin_arrows_a" />
+      <equipment slot="Item3"
+                 id="Item.vlandia_sword_2_t3" />
+      <equipment slot="Body"
+                 id="Item.mail_shirt" />
+      <equipment slot="Leg"
+                 id="Item.leather_cavalier_boots" />
+      <equipment slot="Head"
+                 id="Item.guards_kettle_over_laced_coif" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_padded_vambrace" />
+      <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.woodland_longbow" />
+      <equipment slot="Item1"
+                 id="Item.bodkin_arrows_a" />
+      <equipment slot="Item2"
+                 id="Item.bodkin_arrows_a" />
+      <equipment slot="Item3"
+                 id="Item.vlandia_sword_2_t3" />
+      <equipment slot="Body"
+                 id="Item.mail_shirt" />
+      <equipment slot="Leg"
+                 id="Item.leather_cavalier_boots" />
+      <equipment slot="Head"
+                 id="Item.guards_kettle_over_laced_coif" />
+      <equipment slot="Gloves"
+                 id="Item.guarded_padded_vambrace" />
+      <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.vlandian_longbowman_elite" />
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="vlandian_longbowman_elite"
+                default_group="Ranged"
+                level="26"
+                civilianTemplate="NPCCharacter.vlandia_troop_civilian_template_t3"
+                name="Vlandian Elite Longbowman"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="230" />
+      <skill id="Riding"
+             value="80" />
+      <skill id="OneHanded"
+             value="250" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="140" />
+      <skill id="Bow"
+             value="250" />
+      <skill id="Crossbow"
+             value="140" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.noble_long_bow" />
+      <equipment slot="Item1"
+                 id="Item.piercing_arrows" />
+      <equipment slot="Item2"
+                 id="Item.piercing_arrows" />
+      <equipment slot="Item3"
+                 id="Item.vlandia_sword_4_t4" />
+      <equipment slot="Body"
+                 id="Item.plated_leather_coat" />
+      <equipment slot="Leg"
+                 id="Item.strapped_mail_chausses" />
+      <equipment slot="Head"
+                 id="Item.guards_kettle_over_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.mail_mitten" />
+      <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.noble_long_bow" />
+      <equipment slot="Item1"
+                 id="Item.piercing_arrows" />
+      <equipment slot="Item2"
+                 id="Item.piercing_arrows" />
+      <equipment slot="Item3"
+                 id="Item.vlandia_sword_4_t4" />
+      <equipment slot="Body"
+                 id="Item.plated_leather_coat" />
+      <equipment slot="Leg"
+                 id="Item.strapped_mail_chausses" />
+      <equipment slot="Head"
+                 id="Item.guards_kettle_over_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.mail_mitten" />
+      <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0"
+                 id="Item.noble_long_bow" />
+      <equipment slot="Item1"
+                 id="piercing_arrows" />
+      <equipment slot="Item2"
+                 id="piercing_arrows" />
+      <equipment slot="Item3"
+                 id="Item.vlandia_sword_4_t4" />
+      <equipment slot="Body"
+                 id="Item.plated_leather_coat" />
+      <equipment slot="Leg"
+                 id="Item.strapped_mail_chausses" />
+      <equipment slot="Head"
+                 id="Item.guards_kettle_over_mail_coif" />
+      <equipment slot="Gloves"
+                 id="Item.mail_mitten" />
+      <equipment slot="Cape"
+                 id="Item.hood" />
+    </equipmentSet>
+	<upgrade_targets></upgrade_targets>
+  </NPCCharacter>
+ 
+ <!------USE THIS PART ONLY------->
